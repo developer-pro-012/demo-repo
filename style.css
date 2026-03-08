@@ -1,8 +1,18 @@
 h1{
     text-align: center;
-    color: white;
+    color: #be78ff;
     text-shadow: 2px 2px 2px black;
 }
 body{
-    background-color: aliceblue;
+    background-color: blueviolet;
+    min-height: calc(100vh - 1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #be78ff;
 }
